@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>ServletRequest1</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRequest2</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletReqeust3</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRequest4</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRequest5</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRequest6</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest6</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRequest7</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest7</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletRequest8</servlet-name>
+    <servlet-class>com.heima.request.ServletRequest8</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServletRequest1</servlet-name>
+    <url-pattern>/servlet/ServletRequest1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequest2</servlet-name>
+    <url-pattern>/servlet/ServletRequest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletReqeust3</servlet-name>
+    <url-pattern>/servlet/ServletRequest3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequest4</servlet-name>
+    <url-pattern>/servlet/ServletRequest4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequest5</servlet-name>
+    <url-pattern>/servlet/ServletRequest5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequest6</servlet-name>
+    <url-pattern>/servlet/ServletRequest6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequest7</servlet-name>
+    <url-pattern>/servlet/ServletRequest7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequest8</servlet-name>
+    <url-pattern>/servlet/ServletRequest8</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

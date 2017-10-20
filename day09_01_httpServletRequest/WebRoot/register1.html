@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  	<script type="text/javascript">
+  		function fun_submit(){
+  			//数据检测
+  			
+  			//提交数据
+  			var form = document.forms[0] ;
+  			form.method = "post" ;
+  			form.submit() ;
+  		}
+  	</script>
+  <body>
+      <form action="/day09_01_httpServletRequest/servlet/ServletRequest6" method="post">
+      	  姓名： <input type = "text" name = "username" ><br>
+      	  密码：<input type = "text" name = "password" ><br>
+      	  确认 密码：<input type = "text" name = "password" ><br>
+      	 性别： <input type = "radio" name = "gander" value = "男" >男<input type = "radio" name = "gander" value = "女">女<br>
+      	 爱好：<input type = "checkbox" name = "loves" value = "打篮球">打篮球
+      	 <input type = "checkbox" name = "loves" value = "踢足球">踢足球
+      	 <input type = "checkbox" name = "loves" value = "聊天">聊天<br>
+      	 国籍： <select name = "country">
+      	 	  <option value = "中国">中国</option>
+      	 	  <option value = "美国">美国</option>
+      	 	  <option value = "日本">日本</option>
+      	 </select>
+      	 备注： <textarea rows="5" cols="20" name = "description">大神留下脚印吧!!!</textarea><br>
+      	<!--  <input type = "submit" value = "提交" >  -->
+      	<input type = "button" value = "提交" onclick = "fun_submit()">
+      </form>
+      
+  </body>
+</html>
