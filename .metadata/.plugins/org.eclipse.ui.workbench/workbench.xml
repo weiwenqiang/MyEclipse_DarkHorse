@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="69" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="125" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -21,12 +21,14 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="UserSeparator" itemType="typeSeparator"/>
@@ -39,43 +41,12 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/bean/User.java" title="User.java" tooltip="day09_01_httpServletRequest/src/com/heima/bean/User.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/bean/User.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest8.java" partName="ServletRequest8.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java" title="ServletRequest8.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="62"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest7.java" partName="ServletRequest7.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java" title="ServletRequest7.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="198"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest6.java" partName="ServletRequest6.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java" title="ServletRequest6.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="106"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest5.java" partName="ServletRequest5.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java" title="ServletRequest5.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="84"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest4.java" partName="ServletRequest4.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java" title="ServletRequest4.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="132"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest3.java" partName="ServletRequest3.java" path="C:/wwq/zp/MyEclipse/DarkHorse/day09_01_httpServletRequest/src/com/heima/request/ServletRequest3.java" title="ServletRequest3.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest3.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest3.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="3516"/>
+<editor activePart="true" focus="true" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="dbcfg.properties" partName="dbcfg.properties" path="C:/wwq/zp/MyEclipse/DarkHorse/day15_00_jdbc/src/dbcfg.properties" title="dbcfg.properties" tooltip="C:/wwq/zp/MyEclipse/DarkHorse/day15_00_jdbc/src/dbcfg.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/day15_00_jdbc/src/dbcfg.properties"/>
 </editor>
 </editors>
 <views>
@@ -84,12 +55,17 @@
 <view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
 <viewState/>
 </view>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (84 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -134,7 +110,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -266,7 +242,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2" ratioLeft="200" ratioRight="800" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.18523985" ratioLeft="251" ratioRight="1104" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@55cc446d" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
@@ -280,7 +256,7 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.74958813" ratioLeft="455" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="com.genuitec.eclipse.ast.deploy.core.serverview" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
@@ -321,35 +297,200 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/bean/User.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/car/servlet/ShowBookDetailServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest2.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse7.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse6.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day09_00_httpServletResponse/src/com/heima/response/ServletResponse1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_03_httpServletResponse/src/com/heima/one/ServletResponse1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/two/ServletContext4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/three/ServletContext5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/three/ServletContext6.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/servletcontext/ServletContext1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/one/ServletContext2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/one/ServletContext3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day08_02_servletcontext/src/com/heima/four/ServletContext7.java"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" path="/day08_02_servletcontext/src/com/heima/four/p2.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/session/ServletSession2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/session/ServletSession1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/car/utils/BookUtils.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/car/servlet/ShowAllBookServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/car/servlet/CarServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_01_session/src/com/heima/car/servlet/BuyServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/cookie/ServletCookie1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/cookie/ServletCookie2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/cookie/ServletCookie3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/one/LoginServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/one/MainServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/one/ServletUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/two/servlet/ShowAllBookServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day10_00_cookie/src/com/heima/two/servlet/ShowBookDetailServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day11_00_session/src/com/heima/token/RegisterServletUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day12_00_jsp/src/com/heima/bean/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day12_00_jsp/WebRoot/5.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day12_00_jsp/WebRoot/4.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day12_01_el/WebRoot/3.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day12_01_el/WebRoot/6.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day12_01_el/WebRoot/5.jsp"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" path="/day15_00_jdbc/src/dbcfg.properties"/>
 </editors>
-<item historyLabel="User.java" index="0">
+<item historyLabel="ServletRequest1.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ServletRequest8.java" index="1">
+<item historyLabel="ServletRequest2.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ServletRequest7.java" index="2">
+<item historyLabel="ServletRequest3.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ServletRequest6.java" index="3">
+<item historyLabel="ServletRequest4.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ServletRequest5.java" index="4">
+<item historyLabel="ServletRequest5.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ServletRequest4.java" index="5">
+<item historyLabel="ServletRequest6.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="ServletRequest3.java" index="6">
+<item historyLabel="ServletRequest7.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
+<item historyLabel="ServletRequest8.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse7.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse6.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse5.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse4.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse3.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse2.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse1.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletResponse1.java" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext4.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext5.java" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext6.java" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext1.java" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext2.java" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext3.java" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletContext7.java" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="p2.properties" index="24"/>
+<item historyLabel="ServletContext2.java" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletSession2.java" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletSession1.java" index="26">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BookUtils.java" index="27">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ShowBookDetailServlet.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ShowAllBookServlet.java" index="28">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CarServlet.java" index="29">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BuyServlet.java" index="30">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletCookie1.java" index="31">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletCookie2.java" index="32">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletCookie3.java" index="33">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LoginServlet.java" index="34">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MainServlet.java" index="35">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServletUI.java" index="36">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ShowAllBookServlet.java" index="37">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ShowBookDetailServlet.java" index="38">
+<position info="not_deleted" x="1161" y="0"/>
+</item>
+<item historyLabel="MainServlet.java" index="35">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RegisterServletUI.java" index="39">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RegisterServletUI.java" index="39">
+<position info="not_deleted" x="1512" y="0"/>
+</item>
+<item historyLabel="User.java" index="40">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="5.jsp" index="41">
+<position info="not_deleted" x="558" y="0"/>
+</item>
+<item historyLabel="4.jsp" index="42">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="3.jsp" index="43">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="6.jsp" index="44">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="5.jsp" index="45">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="dbcfg.properties" index="46"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -370,38 +511,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest3.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest3.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest3.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="dbcfg.properties" tooltip="day15_00_jdbc/src/dbcfg.properties">
+<persistable path="/day15_00_jdbc/src/dbcfg.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest4.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest4.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="5.jsp" tooltip="day12_01_el/WebRoot/5.jsp">
+<persistable path="/day12_01_el/WebRoot/5.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest5.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest5.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="6.jsp" tooltip="day12_01_el/WebRoot/6.jsp">
+<persistable path="/day12_01_el/WebRoot/6.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest6.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest6.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="3.jsp" tooltip="day12_01_el/WebRoot/3.jsp">
+<persistable path="/day12_01_el/WebRoot/3.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest7.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest7.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="4.jsp" tooltip="day12_00_jsp/WebRoot/4.jsp">
+<persistable path="/day12_00_jsp/WebRoot/4.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletRequest8.java" tooltip="day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/request/ServletRequest8.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="5.jsp" tooltip="day12_00_jsp/WebRoot/5.jsp">
+<persistable path="/day12_00_jsp/WebRoot/5.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="day09_01_httpServletRequest/src/com/heima/bean/User.java">
-<persistable path="/day09_01_httpServletRequest/src/com/heima/bean/User.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="day12_00_jsp/src/com/heima/bean/User.java">
+<persistable path="/day12_00_jsp/src/com/heima/bean/User.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletDemo7.java" tooltip="day08_00_servlet/src/com/heima/servlet/ServletDemo7.java">
-<persistable path="/day08_00_servlet/src/com/heima/servlet/ServletDemo7.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegisterServletUI.java" tooltip="day11_00_session/src/com/heima/token/RegisterServletUI.java">
+<persistable path="/day11_00_session/src/com/heima/token/RegisterServletUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletDemo5.java" tooltip="day08_00_servlet/src/com/heima/servlet/ServletDemo5.java">
-<persistable path="/day08_00_servlet/src/com/heima/servlet/ServletDemo5.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowBookDetailServlet.java" tooltip="day10_00_cookie/src/com/heima/two/servlet/ShowBookDetailServlet.java">
+<persistable path="/day10_00_cookie/src/com/heima/two/servlet/ShowBookDetailServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletDemo2.java" tooltip="day08_00_servlet/src/com/heima/servlet/ServletDemo2.java">
-<persistable path="/day08_00_servlet/src/com/heima/servlet/ServletDemo2.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowAllBookServlet.java" tooltip="day10_00_cookie/src/com/heima/two/servlet/ShowAllBookServlet.java">
+<persistable path="/day10_00_cookie/src/com/heima/two/servlet/ShowAllBookServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletDemo1.java" tooltip="day08_00_servlet/src/com/heima/servlet/ServletDemo1.java">
-<persistable path="/day08_00_servlet/src/com/heima/servlet/ServletDemo1.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletUI.java" tooltip="day10_00_cookie/src/com/heima/one/ServletUI.java">
+<persistable path="/day10_00_cookie/src/com/heima/one/ServletUI.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainServlet.java" tooltip="day10_00_cookie/src/com/heima/one/MainServlet.java">
+<persistable path="/day10_00_cookie/src/com/heima/one/MainServlet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginServlet.java" tooltip="day10_00_cookie/src/com/heima/one/LoginServlet.java">
+<persistable path="/day10_00_cookie/src/com/heima/one/LoginServlet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletCookie3.java" tooltip="day10_00_cookie/src/com/heima/cookie/ServletCookie3.java">
+<persistable path="/day10_00_cookie/src/com/heima/cookie/ServletCookie3.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServletCookie2.java" tooltip="day10_00_cookie/src/com/heima/cookie/ServletCookie2.java">
+<persistable path="/day10_00_cookie/src/com/heima/cookie/ServletCookie2.java"/>
 </file>
 </mruList>
 </workbench>

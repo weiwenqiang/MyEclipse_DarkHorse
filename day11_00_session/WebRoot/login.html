@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>1.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  	<script type="text/javascript">
+  		function change(){
+  			var img = document.getElementById("img") ;
+  			//加一个无意义的参数，目的就是让地址每次都发生变化
+  			img.src = "/day09_00_httpServletResponse/servlet/ServletResponse3?t=" + new Date().getTime() ;
+  		}
+  	</script>
+  <body>
+      <form action="/day11_00_session/servlet/LoginServlet" method="post">
+        	 姓名: <input type = "text" name = "username"><br>
+        	 密码:  <input type = "password" name = "pass"><br><br>
+        	 请输入验证码： <input type = "text" name = "code">&nbsp;&nbsp;<img src = "/day11_00_session/servlet/ServletResponse3" id = "img"><a href = "javascript:change()">看不清楚,换一张</a>
+        	 <input type = "submit" value = "登陆">
+        </form>
+  </body>
+</html>

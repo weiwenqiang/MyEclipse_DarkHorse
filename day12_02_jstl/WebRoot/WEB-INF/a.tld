@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>my</short-name>
+	<uri>http://java.sun.com/myjstl</uri>
+
+	<tag>
+	    <name>showTime</name>
+	    <tag-class>com.heima.jstl.ShowTime</tag-class>
+	    <body-content>empty</body-content>
+  	</tag>
+  	
+  	<tag>
+	    <name>demo1</name>
+	    <tag-class>com.heima.jstl.Demo1</tag-class>
+	    <body-content>tagdependent</body-content>
+  	</tag>
+  	
+  	<tag>
+	    <name>demo2</name>
+	    <tag-class>com.heima.jstl.Demo2</tag-class>
+	    <body-content>tagdependent</body-content>
+  	</tag>
+  	
+  		<tag>
+	    <name>demo3</name>
+	    <tag-class>com.heima.jstl.Demo3</tag-class>
+	    <body-content>scriptless</body-content>
+	    <attribute>
+	    	<name>count</name>
+	    	<required>true</required>
+	    	<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+  	</tag>
+</taglib>
