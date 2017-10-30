@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>my</short-name>
+	<uri>http://java.sun.com/myjstl</uri>
+	
+	<tag>
+	    <name>demo4</name>
+	    <tag-class>com.heima.jstl.Demo4</tag-class>
+	    <body-content>scriptless</body-content>
+  	</tag>
+  	
+  	<tag>
+	    <name>if</name>
+	    <tag-class>com.heima.jstl.IFTagDemo</tag-class>
+	    <body-content>scriptless</body-content>
+	    <attribute>
+	    	<name>test</name>
+	    	<required>true</required>
+	    	<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+  	</tag>
+  	
+  	<tag>
+	    <name>choose</name>
+	    <tag-class>com.heima.jstl.ChooseTagDemo</tag-class>
+	    <body-content>scriptless</body-content>
+  	</tag>
+  	
+  	<tag>
+	    <name>when</name>
+	    <tag-class>com.heima.jstl.WhenTagDemo</tag-class>
+	    <body-content>scriptless</body-content>
+	    <attribute>
+	    	<name>test</name>
+	    	<required>true</required>
+	    	<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+  	</tag>
+  	
+  	<tag>
+	    <name>otherwise</name>
+	    <tag-class>com.heima.jstl.OtherwiseTagDemo</tag-class>
+	    <body-content>scriptless</body-content>
+  	</tag>
+  	
+  	<tag>
+	    <name>simpleforeach</name>
+	    <tag-class>com.heima.jstl.SimpleForeach</tag-class>
+	    <body-content>scriptless</body-content>
+	    <attribute>
+	    	<name>items</name>
+	    	<required>true</required>
+	    	<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	    	<name>var</name>
+	    	<required>true</required>
+	    	<rtexprvalue>false</rtexprvalue>
+	    </attribute>
+  	</tag>
+  	
+  	<tag>
+	    <name>foreach</name>
+	    <tag-class>com.heima.jstl.ComplexForEachTagDemo</tag-class>
+	    <body-content>scriptless</body-content>
+	    <attribute>
+	    	<name>items</name>
+	    	<required>true</required>
+	    	<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	    	<name>var</name>
+	    	<required>true</required>
+	    	<rtexprvalue>false</rtexprvalue>
+	    </attribute>
+  	</tag>
+</taglib>
