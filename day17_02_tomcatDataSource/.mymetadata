@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="day17_02_tomcatDataSource"
+  id="myeclipse.1420186509203"
+  context-root="/day17_02_tomcatDataSource"
+  j2ee-spec="5.0"
+  archive="day17_02_tomcatDataSource.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
