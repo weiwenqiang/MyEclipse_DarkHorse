@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- maxIdleSwap:指定多长时间后Session会被钝化.(单位为分钟) -->
+	<Manager className="org.apache.catalina.session.PersistentManager" maxIdleSwap="1" >
+		<!-- 
+			directory:指定钝化文件的保存目录.
+			钝化文件保存路径:${CATALINA_HOME}\work\Catalina\localhost\Web工程名\${sessionid}.session
+		-->
+		<Store className="org.apache.catalina.session.FileStore" directory="mysession" />
+	</Manager>
+</Context>

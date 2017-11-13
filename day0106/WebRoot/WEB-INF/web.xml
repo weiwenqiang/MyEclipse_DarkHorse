@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <!-- 在web.xml文件中如何配置Listener -->
+  <!-- 
+  <listener>
+  	<listener-class>app.java.listener1.HttpSessionListenerTest</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>app.java.listener2.ServletRequestAttributeListenerTest</listener-class>
+  </listener> 
+  -->
+  <listener>
+  	<listener-class>app.java.listener.demo.MyServletContextListener</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>app.java.listener.demo.MyHttpSessionListener</listener-class>
+  </listener>
+  
+  <!-- ************************************************ -->
+  
+  <!-- 配置过滤器 -->
+  <!-- 
+  <filter>
+  	<filter-name>MyFilter1</filter-name>
+  	<filter-class>app.java.filter.MyFilter1</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>MyFilter2</filter-name>
+  	<filter-class>app.java.filter.MyFilter2</filter-class>
+  	<init-param>
+  		<param-name>mingjiao</param-name>
+  		<param-value>zhangwuji</param-value>
+  	</init-param>
+  </filter>
+   -->
+  <filter>
+  	<filter-name>EncodingFilter</filter-name>
+  	<filter-class>app.java.filter.demo1.EncodingFilter</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>AutoLoginFilter</filter-name>
+  	<filter-class>app.java.filter.demo2.AutoLoginFilter</filter-class>
+  </filter>
+  
+  <!-- 
+  <filter-mapping>
+  	<filter-name>MyFilter2</filter-name>
+  	<servlet-name>MyServlet2</servlet-name>
+  	<dispatcher>REQUEST</dispatcher>
+  	<dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>MyFilter1</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping> 
+  -->
+  <filter-mapping>
+  	<filter-name>EncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>AutoLoginFilter</filter-name>
+  	<url-pattern>/index.jsp</url-pattern>
+  </filter-mapping>
+  
+  <!-- ************************************************ -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BeanServlet</servlet-name>
+    <servlet-class>app.java.listener3.BeanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionServlet</servlet-name>
+    <servlet-class>app.java.listener4.SessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSessionServlet</servlet-name>
+    <servlet-class>app.java.listener4.GetSessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DemoServlet</servlet-name>
+    <servlet-class>app.java.listener.demo.DemoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyServlet1</servlet-name>
+    <servlet-class>app.java.servlet.MyServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyServlet2</servlet-name>
+    <servlet-class>app.java.servlet.MyServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>app.java.filter.demo.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>app.java.filter.demo2.LoginServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>BeanServlet</servlet-name>
+    <url-pattern>/bean</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionServlet</servlet-name>
+    <url-pattern>/session</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSessionServlet</servlet-name>
+    <url-pattern>/get</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DemoServlet</servlet-name>
+    <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyServlet1</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyServlet2</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

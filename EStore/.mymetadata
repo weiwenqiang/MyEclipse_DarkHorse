@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="EStore"
+  id="myeclipse.1421027649835"
+  context-root="/EStore"
+  j2ee-spec="5.0"
+  archive="EStore.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+myeclipseTomcatServer.EStore.IEARProjectName=
+myeclipseTomcatServer.EStore.altContextRoot=
+myeclipseTomcatServer.EStore.contextRoot=/EStore
+myeclipseTomcatServer.EStore.deployIsOverProject=false
+myeclipseTomcatServer.EStore.deploymentPath=C\:\\wwq\\zp\\MyEclipse\\DarkHorse\\.metadata\\.me_tcat\\webapps\\EStore
+myeclipseTomcatServer.EStore.isDeployed=true
+myeclipseTomcatServer.EStore.isExploded=true
+myeclipseTomcatServer.EStore.isUptoDate=true
+myeclipseTomcatServer.EStore.noFileCopy=false
+myeclipseTomcatServer.EStore.shouldBackup=false
+myeclipseTomcatServer.EStore.shouldOverwrite=false
+myeclipseTomcatServer.EStore.type=WebDeployment

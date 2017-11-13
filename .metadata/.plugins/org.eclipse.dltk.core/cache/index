@@ -2,4 +2,6 @@
 <cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
   <entries path="C:/wwq/zp/MyEclipse/DarkHorse/day15_02_customer/WebRoot/js/Birthday-Calendar.js" timestamp="1434279206879" lastAccessTime="1509058625385"/>
   <entries path="C:/wwq/zp/MyEclipse/DarkHorse/day16_00_customerfen/WebRoot/js/Birthday-Calendar.js" timestamp="1434279207633" lastAccessTime="1509460230015"/>
+  <entries path="C:/wwq/zp/MyEclipse/DarkHorse/EStore/WebRoot/mutilpleFlash.js" timestamp="1434278759300" lastAccessTime="1510476055652"/>
+  <entries path="C:/wwq/zp/MyEclipse/DarkHorse/EStore/WebRoot/script.js" timestamp="1434278760838" lastAccessTime="1510476055807"/>
 </cache:CacheIndex>

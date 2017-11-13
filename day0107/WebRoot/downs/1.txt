@@ -1,0 +1,131 @@
+文件上传下载(场景):
+ * 文件上传
+   * 客户端
+     * 文件上传页面(form)
+       * 请求方式一定是POST.
+       * 文件上传域(<input type='file'>)必须具有name属性.
+       * 表单的enctype属性值设置为"multipart/form-data".
+
+     * 扩展:浏览器内核产品不同(不建议使用IE)
+       * IE浏览器:IE6.0\7.0	IE8.0\9.0	IE10\11
+       * 其他浏览器:Webkit(苹果)
+         * 苹果浏览器
+	 * 火狐浏览器:自主内核产品.
+	 * 谷歌浏览器:自主内核产品.
+       * 众多国内浏览器:
+         * 百度浏览器:号称自主内核.
+	 * 腾讯浏览器:号称自主内核.
+	 * 遨游浏览器:号称自主内核.
+	 * 360\搜狗\猎豹等...
+   * 服务器端
+     * 导入工具包:commons-fileupload.jar和commons-io.jar包.
+     * 实现的步骤:
+       * 实例化DiskFileItemFactory工厂类.
+       * 实例化ServletFileUpload类.
+         ServletFileUpload upload = new ServletFileUpload(factory);
+       * 利用upload的parseRequest(request)方法从Request对象中获取文件上传的内容(List集合).
+       * 遍历获取到的List集合.
+         * 如果是普通项 - 获取普通项的文本内容.
+	   * isFormField():判断当前是否是普通项,true表示是.
+	   * getFieldName():获取普通项的name属性值.
+	   * getString():获取普通项的文本内容.
+	 * 如果是文件项
+	   * getName():获取上传文件的名称.
+	   * getInputStream():获取上传文件的输入流.
+	   * 通过保存的路径,创建文件的输出流.
+	   * 利用IOUtils.copy(inputStream,OutputStream)方法将上传文件进行保存.
+     * 将文件上传至WEB-INF目录下:
+       * WEN-INF目录外与WEB-INF目录中的区别:
+         * WEN-INF目录外:在浏览器中可以访问的(安全低).
+	 * WEB-INF目录中:在浏览器中不能访问的.
+     * 上传文件名称的处理:
+       * 可能使用的浏览器版本过旧,获取到的文件上传的名称,而是选择上传文件的完整路径.
+         C:\Users\JYL\Desktop\day0106\笔记\readme.txt
+       * 解决办法:
+         int index = fileName.lastIndexOf("\\");
+	 if(index >= 0){
+	     fileName.substring(index+1);
+	 }
+     * 上传文件的中文乱码问题:
+       * 普通项的中文乱码:
+	 * 利用FileItem的getString(encoding)方法来解决.
+	   fileItem.getString("utf-8");
+       * 文件项的中文乱码:
+         * POST方式的请求参数:
+	   request.setCharacterEncoding("utf-8")
+     * 上传文件同名的问题:
+       * 问题:默认情况下,上传多次同名的文件时,新的文件会覆盖旧的文件.
+       * 解决:将每个上传的文件名,提供一个唯一的标识(拼在文件名中).
+         fileName = UUID.randomUUID().toString()+fileName;
+       * 注意:如果开发真实案例时,需要保存真实文件名称和上传后处理的文件名称.
+     * 一个目录不能存放过多文件:
+       * 问题:
+         * 长时间使用后,上传目录的体积多大.
+	 * 上传目录保存的文件过多,查找文件过慢.
+       * 解决:分级存储
+         * 按照用户名称分级存储.
+	 * 按照日期时间分级存储.
+	 * 指定一个上传子目录最大存储空间.
+	 * 按照hashcode分级存储.
+     * 处理文件上传大小的限制:
+       * 单个文件大小的限制:3M
+         * 利用ServletFileUpload的setFileSizeMax(字节数).
+	 * 问题:如果上传的单个文件大小,大于限制的大小时:抛异常.
+	   FileSizeLimitExceededException
+       * 上传文件总大小的限制:10M
+         * upload.setSizeMax(1024*1024*10);
+	 * 抛异常:SizeLimitExceededException
+     * 上传文件的缓存文件大小与临时目录:
+       * 默认情况下:上传文件的输入流存储在服务器端的内存中(缓存).
+       * 问题:
+         * 当上传的单个文件过大时,导致服务器端的内存空间不足(性能下降)
+       * 解决:
+         * 指定上传文件的缓存大小.
+	 * 如果上传文件的缓存大于指定的缓存(内存中)大小,使用临时文件(硬盘中)的方式.
+       * 如何实现:
+         * 指定上传的缓存大小:
+	   * factory.setSizeThreshold(1024*1024);
+	 * 设置上传临时目录:
+	   * factory.setRepository(new File(getServletContext().getRealPath("/tmp")));
+	   * 机制:当文件上传成功后,删除临时目录中的临时文件.
+	     fileItem.delete();
+     * 上传文件比较大时,上传的速度变慢?
+       * 原因就是输入流与输出流的问题.
+         * 输出流:new BufferedOutputStream(new FileOutputStream(new File(realPath,fileName)));
+	 * 输入流:new BufferedInputStream(fileItem.getInputStream());
+     * 文件上传的进度条的功能:
+       * 服务器端:监听文件上传的整个过程(从开始上传到上传结束)
+         * 需要文件上传的监听器.
+	        upload.setProgressListener(new ProgressListener() {
+			/**
+			 * update(long pBytesRead, long pContentLength, int pItems)
+			 *  * 作用:用于监听文件上传过程的状态信息.
+			 *  * 参数pBytesRead:到目前为止,已经读取上传文件的大小.
+			 *  * 参数pContentLength:上传文件的总大小.
+			 *  * 参数pItems:当前上传文件，是表单的第几个元素.
+			 *  
+			 *  计算以下四个结果:
+			 *   * 已用时间:当前时间 - 开始时间
+			 *   * 上传速度:已经上传大小 / 已用时间
+			 *   * 剩余大小:总大小 – 已经上传大小
+			 *   * 剩余时间：剩余大小 / 速度
+			 */
+			public void update(long pBytesRead, long pContentLength, int pItems) {
+				// 获取文件上传的当前时间
+				long currentTime = System.currentTimeMillis();
+				// 已用时间:当前时间 - 开始时间
+				long useTime = currentTime - startTime;
+				// 上传速度:已经上传大小 / 已用时间
+				long speed = pBytesRead / useTime;
+				// 剩余大小:总大小 – 已经上传大小
+				long restBytes = pContentLength - pBytesRead;
+				// 剩余时间：剩余大小 / 速度
+				long restTime = restBytes / speed;
+				System.out.println("上传速度为: "+speed+" , "+"当前还有 "+restBytes+" 没有上传完成, "+"还有 "+restTime+" 上传完成");
+			}
+		});
+       * 客户端:添加进度条的内容(异步交互技术Ajax)
+ * 文件下载
+   * 客户端
+     * 
+   * 服务器端
